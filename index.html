@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="Elisa Mauger - Portfolio" content="Hi, I’m Elisa Mauger, a student in digital communication, web design & front development in Bordeaux." />
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" href="assets/css/style.css" />
+			<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i" rel="stylesheet">
+			<title>Elisa Mauger</title>
+			<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+	<section class="container">
+	<div class="home">
+		<div class="menu">
+		<div class="logo">
+		<a href="index.html">
+		<h1>ELISA MAUGER</h1>
+		</a>
+		</div>
+		<div class="about">
+		<a href="about.html" class="about"></a>
+		
+
+		</div>
+		</div>
+		<a href="#projects-container"><div class="scroll">
+			<div class="arrow-down icon"></div>
+				<p>scroll down</p>
+		</div></a>
+	</div>
+		
+
+	<div class="blue-container">
+	<div class="blue">
+		<p>Hi, I’m a digital creative based in Bordeaux. I like to build clean websites for your projects and help you grow on the internet.</p>
+	</div>
+	</div>
+	<div id="projects-container">
+	<div class="projects">
+
+		<div class="project">
+			<div class="image-project">
+			<a href="swip.html" ><img src="assets/images/swip.png" alt="projects - SWIP"/></a>
+			</div>
+			<div class="infos-project">
+			<div class="title-project">
+			<h2 class="start-title">Swip</h2>
+			<h2 class="end-title">app</h2>
+			</div>
+			<div class="kinds-of-project">
+			<div class="inner-kind-of-project">
+			<p class="kind-of-project">app conception</p>
+			<p class="kind-of-project">mobile design</p>
+			</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image-project">
+			<a href="basquiat.html" ><img src="assets/images/basquiat.jpg" alt="projects - Jm Basquiat"/></a>
+			</div>
+			<div class="infos-project">
+			<div class="title-project1">
+			<h2 class="start-title">Jm</h2>
+			<h2 class="end-title">Basquiat</h2>
+			</div>
+			<div class="kinds-of-project">
+			<div class="inner-kind-of-project">
+			<p class="kind-of-project">website creation</p>
+			<p class="kind-of-project">UI/UX design</p>
+			</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image-project">
+			<a href="socialclubs.html" ><img src="assets/images/msc.png" alt="projects - Social Clubs"/></a>
+			</div>
+			<div class="infos-project">
+			<div class="title-project1">
+			<h2 class="start-title">Social</h2>
+			<h2 class="end-title">Clubs</h2>
+			</div>
+			<div class="kinds-of-project">
+			<div class="inner-kind-of-project">
+			<p class="kind-of-project">website creation</p>
+			<p class="kind-of-project">UI/UX design</p>
+			</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image-project">
+			<a href="nexttoyou.html" ><img src="assets/images/nexttoyou.jpg" alt="projects - Next to you"/></a>
+			</div>
+			<div class="infos-project">
+			<div class="title-project">
+			<h2 class="start-title">Next</h2>
+			<h2 class="end-title">to you</h2>
+			</div>
+			<div class="kinds-of-project">
+			<div class="inner-kind-of-project">
+			<p class="kind-of-project">UI/UX design</p>
+			<p class="kind-of-project">logo creation</p>
+			</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image-project">
+			<a href="#"><img src="assets/images/nexttime.png" alt="projects - Next time"/></a>
+			</div>
+			<div class="infos-project">
+			<div class="title-project2">
+			<h2 class="start-title">Next</h2>
+			<h2 class="end-title">time</h2>
+			</div>
+			<div class="kinds-of-project">
+			<div class="inner-kind-of-project">
+			<p class="kind-of-project">UI/UX design</p>
+			<p class="kind-of-project">illustrations</p>
+			</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<footer>
+		<div class="container-footer">
+			<div class="socialnetworks"> <p>email</p> <br> <a href="mailto:elisamauger@live.fr">elisamauger@live.fr</a>
+			</div>
+			<div class="socialnetworks"> <p>instagram</p>  <br>  <a href="https://www.instagram.com/elisamauger/" target="_blank">@elisamauger</a>
+			</div>
+			<div class="socialnetworks"> <p>behance</p>  <br>  <a href="https://www.behance.net/elisamauger01df" target="_blank">@elisamauger</a>
+			</div>
+			<div> <p class="info">Built in Bordeaux, France</p> <p class="copy">©2017 Elisa Mauger - Copyright holders</p>
+			</div>
+		</div>
+	</footer>
+	
+	</section>
+	
+	<script type="text/javascript">
+	$('a[href^="#"]').click(function(){
+		var the_id = $(this).attr("href");
+
+		$('html, body').animate({
+			scrollTop:$(the_id).offset().top
+		}, 'slow');
+		return false;
+	});
+	</script>
+	</body>
+
+</html>

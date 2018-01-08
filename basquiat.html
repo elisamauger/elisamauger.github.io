@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="Elisa Mauger - Basquiat" content="JM Basquiat is a digital library imagined by 3 students, it offers visitors access to a panel of rigorously selected articles, photos and documentaries..." />
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" href="assets/css/style.css" />
+			<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i" rel="stylesheet">
+			<title>Elisa Mauger - Basquiat</title>
+			<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+	<section class="container">
+	<div class="basquiat">
+		<div class="menu">
+		<div class="logo">
+		<a href="index.html">
+		<h1>ELISA MAUGER</h1>
+		</a>
+		</div>
+		<div class="about">
+		<a href="about.html" class="about"></a>
+		</div>
+		</div>
+		<a href="#projects-container"><div class="scroll">
+			<div class="arrow-down icon"></div>
+				<p>scroll down</p>
+		</div></a>
+	</div>
+
+		<div class="blue-container">
+	<div class="blue">
+		<div class="intro">JM Basquiat is a school project about an artist of our choice, without contraints we were able to unleash our creativity.</div>
+		<div class="text">JM Basquiat is a digital library imagined by 3 students, it offers visitors access to a panel of rigorously selected articles, photos and documentaries as well as a soundtrack to be immersed in the NY of the 80's. Through this, we hope to bring a different vision of his life, his work and his commitments. Its design, monochrome and refined, has been thought to be the easiest to use. It allows to highlight the documentary resources that are the main keys of this website. To pay homage to the Prince of the street we used the famous handwriting of Basquiat and his crown drawing which became his emblem.</div>
+		<div class="more"><a href="http://jmbasquiat.fr" target="_blank">VISIT WEBSITE</a></div>
+		<div class="desktop">View my work on desktop</div>
+	</div>
+	</div>
+
+	<div id="projects-container">
+	<div class="pictures">
+		<div class="image-project1b">
+			<img src="assets/images/basquiat1.png" alt="Basquiat mock-up 1"/>
+		</div>
+
+		<div class="image-project2b">
+			<img src="assets/images/basquiat2.png" alt="Basquiat mock-up 2"/>
+		</div>
+
+		<div class="image-project3b">
+			<img src="assets/images/basquiat3.png" alt="Basquiat mock-up 3"/>
+		</div>
+	</div>
+
+	</div>
+	</section>
+
+		<footer>
+
+			<div class="container-footer">
+		<div class="socialnetworks"> <p>email</p> <br> <a href="mailto:elisamauger@live.fr">elisamauger@live.fr</a>
+		</div>
+		<div class="socialnetworks"> <p>instagram</p>  <br>  <a href="https://www.instagram.com/elisamauger/" target="_blank">@elisamauger</a>
+		</div>
+		<div class="socialnetworks"> <p>behance</p>  <br>  <a href="https://www.behance.net/elisamauger01df" target="_blank">@elisamauger</a>
+		</div>
+		<div> <p class="info">Built in Bordeaux, France</p> <p class="copy">©2017 Elisa Mauger - Copyright holders</p>
+		</div>
+			</div>
+		</footer>
+
+	<script type="text/javascript">
+	$('a[href^="#"]').click(function(){
+		var the_id = $(this).attr("href");
+
+		$('html, body').animate({
+			scrollTop:$(the_id).offset().top
+		}, 'slow');
+		return false;
+	});
+	</script>
+	</body>
+</html>
