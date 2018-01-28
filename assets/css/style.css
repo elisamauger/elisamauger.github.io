@@ -817,9 +817,6 @@ img {
   .info {
     display: none;
   }
-  .description p {
-    font-size: 1.4em;
-  }
   .introdescription {
     font-size: 1.4em;
   }
@@ -834,9 +831,6 @@ img {
   }
   .project:nth-child(even) .title-project {
     font-size: 1.7em;
-  }
-  .description p {
-    font-size: 1.3em;
   }
   .introdescription {
     font-size: 1.3em;
