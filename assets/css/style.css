@@ -67,6 +67,10 @@ a:visited {
   text-decoration: none;
 }
 
+#scroll-to-projects {
+  cursor: pointer;
+}
+
 .scroll {
   position: absolute;
   bottom: 0%;
@@ -609,7 +613,7 @@ img {
   }
   /*-------RESPONSIVE PAGE PROJET-------*/
   .text {
-    padding: 10px 30px 50px 30px;
+    padding: 25px 30px 50px 30px;
   }
   .intro {
     padding: 70px 30px 0px 30px;

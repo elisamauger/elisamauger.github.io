@@ -10,7 +10,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i" rel="stylesheet">
 	<title>Elisa Mauger</title>
 	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -29,12 +28,10 @@
 
 				</div>
 			</div>
-			<a href="#projects-container">
-				<div class="scroll">
+				<div class="scroll" id="scroll-to-projects">
 					<div class="arrow-down icon"></div>
 					<p>scroll down</p>
 				</div>
-			</a>
 		</div>
 
 
@@ -158,15 +155,15 @@
 
 	</section>
 
-	<script type="text/javascript">
-		$('a[href^="#"]').click(function() {
-			var the_id = $(this).attr("href");
-
-			$('html, body').animate({
-				scrollTop: $(the_id).offset().top
-			}, 'slow');
-			return false;
-		});
+	<script src="assets/javascripts/smooth-scroll.js"></script>
+	<script>
+	document.querySelector('#scroll-to-projects').addEventListener('click', () => {
+		scrollIt(
+			document.querySelector('#projects-container'),
+			600,
+			'easeInCubic'
+		)
+	})
 	</script>
 </body>
 
