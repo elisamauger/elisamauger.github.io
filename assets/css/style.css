@@ -9,7 +9,7 @@
 /*-------HOMEPAGE-------*/
 
 .home {
-  background-image: url(../images/neon2.jpg);
+  background-image: url(../images/neon_animation.gif);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -24,6 +24,7 @@ h1 {
 
 .menu {
   margin: 0 auto;
+  width: 70%;
   max-width: 1000px;
   padding: 100px 0px 0px 0px;
 }
@@ -148,7 +149,7 @@ a:visited {
   height: auto;
   margin-left: 200px;
   margin-right: 60px;
-  margin-top: 90px;
+  margin-top: 55px;
 }
 
 .aboutme {
@@ -175,8 +176,8 @@ a:visited {
 }
 
 .introdescription {
-  margin: 1em auto;
-  margin-top: 3em;
+  margin: .5em auto;
+  margin-top: 1.5em;
   color: #4D52D0;
   font-family: 'League Spartan';
   font-size: 2em;
@@ -268,6 +269,11 @@ footer {
   margin: 3em auto 0;
 }
 
+#projects-container .video {
+  display: block;
+  margin: 0 auto 3em;
+}
+
 .project {
   position: relative;
   margin-bottom: 3em;
@@ -340,11 +346,13 @@ footer {
 }
 
 .title-project {
+  position: relative;
   font-family: 'League Spartan';
   font-size: 2.5em;
 }
 
 .end-title {
+  top: 0;
   color: white;
 }
 
@@ -697,25 +705,33 @@ img {
     width: 100%;
     margin-top: 0;
   }
+  #projects-container .video {
+    width: 100%
+  }
   .project {
     float: none;
     width: 100%;
     margin-bottom: 0;
   }
-  .infos-project {
+  #projects-container .infos-project {
     top: inherit;
     bottom: 15px;
-    left: 10px!important;
+    left: 10px;
   }
-  .start-title,
-  .end-title,
-  .kinds-of-project {
-    position: initial!important;
-    right: inherit!important;
-    left: inherit!important;
-    transform: inherit!important;
+  #projects-container .infos-project .start-title,
+  #projects-container .infos-project .end-title,
+  #projects-container .infos-project .kinds-of-project {
+    position: initial;
+    right: inherit;
+    left: inherit;
+    transform: inherit;
     padding: 0;
-    color: #FFF!important;
+    color: #000;
+  }
+  #projects-container .infos-project.dark-project .start-title,
+  #projects-container .infos-project.dark-project .end-title,
+  #projects-container .infos-project.dark-project .kinds-of-project {
+    color: #FFF;
   }
   .kinds-of-project {
     text-align: left!important;
