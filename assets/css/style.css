@@ -266,12 +266,18 @@ footer {
 
 #projects-container {
   width: 80%;
-  margin: 3em auto 0;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+#projects-container.with-video {
+  width: 65%;
 }
 
 #projects-container .video {
   display: block;
-  margin: 0 auto 3em;
+  width: 100%;
+  margin: 2em auto 5em;
 }
 
 .project {
@@ -434,7 +440,7 @@ img {
 
 .image-project1, .image-project2 {
   width: 40%;
-  margin: 5em 1em 2em 1em;
+  margin: 0 1em 5em 1em;
 }
 
 .image-project3 {
@@ -454,12 +460,12 @@ img {
 
 .image-project2b, .image-project3b {
   width: 40%;
-  margin: 2em 1em 5em 1em;
+  margin: 0 1em 5em 1em;
 }
 
 .image-project1b {
   width: 82.7%;
-  margin-top: 5em;
+  margin-bottom: 2em;
 }
 
 /*-------SWIP-------*/
