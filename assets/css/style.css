@@ -725,6 +725,9 @@ img {
     bottom: 15px;
     left: 10px;
   }
+  #projects-container .assets {
+    display: none;
+  }
   #projects-container .infos-project .start-title,
   #projects-container .infos-project .end-title,
   #projects-container .infos-project .kinds-of-project {
