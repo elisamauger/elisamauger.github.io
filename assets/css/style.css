@@ -280,6 +280,11 @@ footer {
   margin: 2em auto 5em;
 }
 
+#projects-container .assets .video:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .project {
   position: relative;
   margin-bottom: 3em;
