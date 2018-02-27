@@ -280,6 +280,11 @@ footer {
   margin: 2em auto 5em;
 }
 
+#projects-container .assets .video:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .project {
   position: relative;
   margin-bottom: 3em;
@@ -710,6 +715,7 @@ img {
   #projects-container {
     width: 100%;
     margin-top: 0;
+    padding: 0;
   }
   #projects-container .video {
     width: 100%
@@ -723,6 +729,9 @@ img {
     top: inherit;
     bottom: 15px;
     left: 10px;
+  }
+  #projects-container .assets {
+    display: none;
   }
   #projects-container .infos-project .start-title,
   #projects-container .infos-project .end-title,
